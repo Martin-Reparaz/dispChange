@@ -2,6 +2,7 @@
 ## Configuration script
 This script configures the vino-server for jetson platforms. It is recomended to use it before starting to use the vnc server.
 Execute it by using: `sudo ./conf_vnc_server.sh`.
+**IT IS NECESSARY TO MODIFY THIS SCRIPT TO USE YOUR USER**
 
 ## Script for changing between HDMI and VNC conection on Jetson platforms
 This script must be used with **sudo** privileges.
