@@ -6,6 +6,7 @@ Execute it by using: `sudo ./conf_vnc_server.sh`.
 ## Script for changing between HDMI and VNC conection on Jetson platforms
 This script must be used with **sudo** privileges.
 To run the script simply use the following command:
+
 `sudo ./dispMode.sh --mode`
 - **--hdmi** for hdmi conection. `sudo ./dispMode.sh --hdmi`.
 - **--vnc** for vnc conection. `sudo ./dispMode.sh --vnc`.
