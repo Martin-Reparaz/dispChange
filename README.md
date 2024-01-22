@@ -22,7 +22,7 @@ To run the script simply use the following command:
 - **--vnc** for vnc conection. `sudo ./dispMode.sh --vnc`.
 - **--help** to show script use instructions. `sudo ./dispMode.sh --help`.
 
-**NOTE:** --vnc mode allows both the HDMI connection, and VNC connection. So, if you´re planning to use both of them just execute the command once with the --vnc option. 
+**NOTE:** --vnc mode allows both the HDMI VNC connection. So, if you´re planning to use both of them just execute the command once with the --vnc option. 
 
 ## Layout rearranging script
 Depending on the vino versions and the platform you are using, sometimes despite the correct keyboard layout is being selected, in reality it doesnt match.
