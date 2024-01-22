@@ -1,4 +1,13 @@
 # CHANGEDISP SCRIPT
+
+## Setup
+```
+sudo apt update
+sudo apt-get install -y vino
+git clone https://github.com/Martin-Reparaz/dispChange.git
+cd dispChange
+sudo ./conf_vnc_server.sh
+```
 ## Configuration script
 This script configures the vino-server for jetson platforms. It is recomended to use it before starting to use the vnc server.
 Execute it by using: `sudo ./conf_vnc_server.sh`.
