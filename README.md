@@ -6,7 +6,7 @@ sudo apt update
 sudo apt-get install -y vino
 git clone https://github.com/Martin-Reparaz/dispChange.git
 cd dispChange
-sudo chmod +x conf_vnc_server.sh && sudo chmod +x dispMode.sh && sudo chmod +x layout_rearrange.sh
+sudo chmod +x conf_vnc_server.sh dispMode.sh layout_rearrange.sh
 ./conf_vnc_server.sh
 ```
 ## Configuration script
