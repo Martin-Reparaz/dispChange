@@ -6,7 +6,7 @@ sudo apt update
 sudo apt-get install -y vino
 git clone https://github.com/Martin-Reparaz/dispChange.git
 cd dispChange
-sudo chmod +x *
+sudo chmod +x conf_vnc_server.sh && sudo chmod +x dispMode.sh && sudo chmod +x layout_rearrange.sh
 ./conf_vnc_server.sh
 ```
 ## Configuration script
@@ -25,3 +25,11 @@ To run the script simply use the following command:
 ## Layout rearranging script
 Depending on the vino versions and the platform you are using, sometimes despite the correct keyboard layout is being selected, in reality it doesnt match.
 For this purpose this script was created, by executing it using `./layout_rearrange.sh` it will change to the spanish layout.
+
+## Accessibility
+To be able to run these scripts from anywhere in your file system run the following commands inside the dispChange directory:
+```
+echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc
+cd ~
+source .bashrc
+```
