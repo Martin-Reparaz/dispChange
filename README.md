@@ -27,7 +27,7 @@ Depending on the vino versions and the platform you are using, sometimes despite
 For this purpose this script was created, by executing it using `./layout_rearrange.sh` it will change to the spanish layout.
 
 ## Accessibility
-To be able to run these scripts from anywhere in your file system run the following commands inside the dispChange directory:
+To be able to run these scripts from anywhere in your file system, run the following commands inside the dispChange directory:
 ```
 echo "export PATH=$PATH:$(pwd)" >> ~/.bashrc
 cd ~
