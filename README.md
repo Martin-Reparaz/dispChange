@@ -1,4 +1,4 @@
-# CHANGEDISP SCRIPT
+# DISPCHANGE SCRIPT
 
 ## Setup
 ```
