@@ -24,7 +24,7 @@ To run the script simply use the following command:
 
 **NOTE:** --hdmi mode allows both the HDMI and VNC connection. So, if you´re planning to use both of them just execute the command once with the --hdmi option. 
 
-$${\color{red}**CAUTION!** After script completion, if no ctrl+C is pressed, the board will automatically reboot after 5s.}$$
+$${\color{red}**CAUTION!** /space After /space script /space completion, /space if /space no /space ctrl+C /space is /space pressed, /space the /space board /space will /space automatically /space reboot /space after /space 5s.}$$
 
 ## Layout rearranging script
 Depending on the vino versions and the platform you are using, sometimes despite the correct keyboard layout is being selected, in reality it doesnt match.
