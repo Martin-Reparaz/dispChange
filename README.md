@@ -23,6 +23,7 @@ To run the script simply use the following command:
 - **--help** to show script use instructions. `sudo ./dispMode.sh --help`.
 
 **NOTE:** --hdmi mode allows both the HDMI and VNC connection. So, if you´re planning to use both of them just execute the command once with the --hdmi option. 
+
 **CAUTION!** After script completion, if no ctrl+C is pressed, the board will automatically reboot after 5s.
 
 ## Layout rearranging script
